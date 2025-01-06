@@ -1,11 +1,11 @@
-'use client'
-import { Fragment, useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+'use client';
+import { Fragment, useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import ProjectDetailsPopup from "./popup/ProjectDetailsPopup";
-import { projectSliderProps } from "../sliderProps";
-import { dataImage } from "../utilits";
-import { PROJECTS } from "../constant/data";
+import ProjectDetailsPopup from './popup/ProjectDetailsPopup';
+import { projectSliderProps } from '../sliderProps';
+import { dataImage } from '../utilits';
+import { PROJECTS } from '../constant/data';
 
 const Projects = () => {
   const [detailsPopup, setDetailsPopup] = useState(false);
@@ -43,11 +43,12 @@ const Projects = () => {
                   <SwiperSlide key={project.id}>
                     <div className='list_inner'>
                       <div className='image'>
-                        <img src={project.thumbImg} alt={project.title} style={{ borderRadius: '12px' }} />
-                        <div
-                          className='main'
-                          data-img-url={project.thumbImg}
+                        <img
+                          src={project.thumbImg}
+                          alt={project.title}
+                          style={{ borderRadius: '12px' }}
                         />
+                        <div className='main' data-img-url={project.thumbImg} />
                       </div>
                       <div className='details'>
                         <span className='category'>Details</span>
@@ -67,10 +68,10 @@ const Projects = () => {
                 ))}
               </Swiper>
               <a className='prev_button' href='#'>
-                <img className='svg' src='img/svg/prev.svg' alt='' />
+                <img className='svg' src='/img/svg/prev.svg' alt='' />
               </a>
               <a className='next_button' href='#'>
-                <img className='svg' src='img/svg/next.svg' alt='' />
+                <img className='svg' src='/img/svg/next.svg' alt='' />
               </a>
             </div>
           </div>

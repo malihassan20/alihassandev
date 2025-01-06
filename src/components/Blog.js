@@ -1,8 +1,8 @@
-"use client";
+'use client';
 // import BlogPopup from "./popup/BlogPopup";
-import Link from "next/link";
-import { getAllBlogs } from "../lib/blog";
-import { useEffect, useState } from "react";
+import Link from 'next/link';
+import { getAllBlogs } from '../lib/blog';
+import { useEffect, useState } from 'react';
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
@@ -49,7 +49,12 @@ const Blog = () => {
                         </div>
                         <div className='title'>
                           <h3>
-                            <a className='c-pointer'>{blog.data.title}</a>
+                            <Link
+                              className='line_effect c-pointer'
+                              href={`blogs/${blog.slug}`}
+                            >
+                              {blog.data.title}
+                            </Link>
                           </h3>
                         </div>
                         <div className='orido_tm_simple_button'>
@@ -57,17 +62,17 @@ const Blog = () => {
                             className='line_effect c-pointer'
                             href={`blogs/${blog.slug}`}
                           >
-                            Read More{" "}
+                            Read More{' '}
                             <img
                               className='svg'
-                              src='img/svg/top-arrow.svg'
+                              src='/img/svg/top-arrow.svg'
                               alt=''
                             />
                           </Link>
                         </div>
                       </div>
                       <div className='right'>
-                        <img src='img/thumbs/24-20.jpg' alt='' />
+                        <img src='/img/thumbs/24-20.jpg' alt='' />
                         <div
                           className='main'
                           data-img-url={blog.data.image}
@@ -78,7 +83,7 @@ const Blog = () => {
                       <span className='shape'>
                         <img
                           className='svg'
-                          src='img/svg/Intersect.svg'
+                          src='/img/svg/Intersect.svg'
                           alt=''
                         />
                       </span>

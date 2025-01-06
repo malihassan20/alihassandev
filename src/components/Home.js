@@ -10,7 +10,7 @@ const Home = () => {
             <div className='short'>
               <h3>
                 Ali Hassan{' '}
-                <img className='svg' src='img/svg/hi.svg' alt='Hi Icon' />
+                <img className='svg' src='/img/svg/hi.svg' alt='Hi Icon' />
               </h3>
               <span className='job'>Senior Full Stack Engineer</span>
             </div>
@@ -25,13 +25,13 @@ const Home = () => {
               <div className='orido_tm_boxed_button'>
                 <a className='anchor' href='mailto:contact@alihassan.dev'>
                   Say Hello{' '}
-                  <img className='svg' src='img/svg/send.svg' alt='' />
+                  <img className='svg' src='/img/svg/send.svg' alt='' />
                 </a>
               </div>
               <div className='orido_tm_simple_button'>
                 <a className='line_effect anchor' href='#portfolio'>
                   My Recent Work{' '}
-                  <img className='svg' src='img/svg/top-arrow.svg' alt='' />
+                  <img className='svg' src='/img/svg/top-arrow.svg' alt='' />
                 </a>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Home = () => {
               >
                 <img
                   className='svg'
-                  src='img/svg/social/github.svg'
+                  src='/img/svg/social/github.svg'
                   alt='Github Icon'
                 />
               </a>
@@ -61,7 +61,7 @@ const Home = () => {
               >
                 <img
                   className='svg'
-                  src='img/svg/social/linkedin.svg'
+                  src='/img/svg/social/linkedin.svg'
                   alt='LinkedIn Icon'
                 />
               </a>
@@ -74,7 +74,7 @@ const Home = () => {
               >
                 <img
                   className='svg'
-                  src='img/svg/social/upwork.svg'
+                  src='/img/svg/social/upwork.svg'
                   alt='Upwork Icon'
                 />
               </a>
@@ -152,10 +152,10 @@ const Home = () => {
             >
               <img
                 className='anim_circle'
-                src='img/hero/hero-circle.png'
+                src='/img/hero/hero-circle.png'
                 alt=''
               />
-              <img className='svg' src='img/svg/play.svg' alt='' />
+              <img className='svg' src='/img/svg/play.svg' alt='' />
             </a>
           </div>
         </div>

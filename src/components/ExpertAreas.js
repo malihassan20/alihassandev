@@ -49,7 +49,7 @@ const ExpertAreas = () => {
                 <div className='orido_tm_boxed_button'>
                   <a href='cv/Ali-Hassan-Resume.pdf' download>
                     My Resume{' '}
-                    <img className='svg' src='img/svg/paper.svg' alt='' />
+                    <img className='svg' src='/img/svg/paper.svg' alt='' />
                   </a>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const ExpertAreas = () => {
                         <span>Skills</span>{' '}
                         <img
                           className='svg'
-                          src='img/svg/top-arrow.svg'
+                          src='/img/svg/top-arrow.svg'
                           alt=''
                         />
                       </a>
@@ -79,7 +79,7 @@ const ExpertAreas = () => {
                         <span>Experience</span>{' '}
                         <img
                           className='svg'
-                          src='img/svg/top-arrow.svg'
+                          src='/img/svg/top-arrow.svg'
                           alt=''
                         />
                       </a>
@@ -93,7 +93,7 @@ const ExpertAreas = () => {
                         <span>Education</span>{' '}
                         <img
                           className='svg'
-                          src='img/svg/top-arrow.svg'
+                          src='/img/svg/top-arrow.svg'
                           alt=''
                         />
                       </a>

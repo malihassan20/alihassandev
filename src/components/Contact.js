@@ -11,10 +11,10 @@ const Contact = () => {
               >
                 <img
                   className='anim_circle'
-                  src='img/contact/contact-circle.png'
+                  src='/img/contact/contact-circle.png'
                   alt=''
                 />
-                <img className='svg' src='img/svg/play.svg' alt='' />
+                <img className='svg' src='/img/svg/play.svg' alt='' />
               </a>
             </div>
             <div className='text'>
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <div className='orido_tm_boxed_button'>
               <a href='mailto:contact@alihassan.dev'>
-                Say Hello <img className='svg' src='img/svg/send.svg' alt='' />
+                Say Hello <img className='svg' src='/img/svg/send.svg' alt='' />
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                     >
                       <img
                         className='svg'
-                        src='img/svg/social/github.svg'
+                        src='/img/svg/social/github.svg'
                         alt=''
                       />
                     </a>
@@ -79,7 +79,7 @@ const Contact = () => {
                     >
                       <img
                         className='svg'
-                        src='img/svg/social/linkedin.svg'
+                        src='/img/svg/social/linkedin.svg'
                         alt=''
                       />
                     </a>
@@ -92,7 +92,7 @@ const Contact = () => {
                     >
                       <img
                         className='svg'
-                        src='img/svg/social/upwork.svg'
+                        src='/img/svg/social/upwork.svg'
                         alt=''
                       />
                     </a>
@@ -103,10 +103,10 @@ const Contact = () => {
           </div>
         </div>
         <span className='element'>
-          <img className='svg' src='img/svg/elements.svg' alt='' />
+          <img className='svg' src='/img/svg/elements.svg' alt='' />
         </span>
         <span className='element2'>
-          <img className='svg' src='img/svg/element-2.svg' alt='' />
+          <img className='svg' src='/img/svg/element-2.svg' alt='' />
         </span>
       </div>
     </div>

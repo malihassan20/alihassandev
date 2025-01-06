@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div className='right'>
             <span className='element'>
-              <img className='svg' src='img/svg/element.svg' alt='' />
+              <img className='svg' src='/img/svg/element.svg' alt='' />
             </span>
             <div className='orido_tm_main_title'>
               <h3>
@@ -37,10 +37,10 @@ const About = () => {
               <div className='orido_tm_boxed_button'>
                 <a href='cv/Ali-Hassan-Resume.pdf' download>
                   Download CV{' '}
-                  <img className='svg' src='img/svg/paper.svg' alt='' />
+                  <img className='svg' src='/img/svg/paper.svg' alt='' />
                 </a>
               </div>
-              <img src='img/signature.png' alt='' />
+              <img src='/img/signature.png' alt='' />
             </div>
           </div>
         </div>

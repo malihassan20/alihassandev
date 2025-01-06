@@ -22,7 +22,7 @@ const Header = () => {
         <div className='menu'>
           <ul className='anchor_nav'>
             {MEMU_LINK.map((link, i) => (
-              <li key={i} className='current'>
+              <li key={i}>
                 <a href={link.href}>{link.name}</a>
               </li>
             ))}
@@ -30,7 +30,10 @@ const Header = () => {
           <span className='ccc' />
         </div>
         <div className='button'>
-          <button onClick={onToggleTheme} className='theme-toggle-btn'>
+          <button
+            onClick={onToggleTheme}
+            className='theme-toggle-btn c-pointer'
+          >
             {isDark ? (
               <FontAwesomeIcon
                 icon={faSun}

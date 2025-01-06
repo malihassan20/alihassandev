@@ -44,7 +44,7 @@ const Services = () => {
                         <div className='arrow'>
                           <img
                             className='svg'
-                            src='img/svg/top-arrow.svg'
+                            src='/img/svg/top-arrow.svg'
                             alt=''
                           />
                         </div>
@@ -60,7 +60,7 @@ const Services = () => {
                       {/* Modalbox Info Start */}
                       <img
                         className='popup_service_image'
-                        src='img/service/1.jpg'
+                        src='/img/service/1.jpg'
                         alt=''
                       />
                     </div>
