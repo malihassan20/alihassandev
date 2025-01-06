@@ -16,7 +16,7 @@ const About = () => {
             </span>
             <div className='orido_tm_main_title'>
               <h3>
-                <span className="about_span">About Me</span>
+                <span className='about_span'>About Me</span>
               </h3>
             </div>
             <div className='text'>
@@ -35,8 +35,8 @@ const About = () => {
             </div>
             <div className='short'>
               <div className='orido_tm_boxed_button'>
-                <a href='img/cv/Ali-Hassan-Resume.pdf' download>
-                  Download CV{" "}
+                <a href='cv/Ali-Hassan-Resume.pdf' download>
+                  Download CV{' '}
                   <img className='svg' src='img/svg/paper.svg' alt='' />
                 </a>
               </div>

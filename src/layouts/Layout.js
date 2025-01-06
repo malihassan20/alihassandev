@@ -1,14 +1,15 @@
-'use client'
-import { Fragment, useEffect } from "react";
-import ImageView from "../components/popup/ImageView";
-import VideoPopup from "../components/popup/VideoPopup";
+'use client';
+import { Fragment, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import ImageView from '../components/popup/ImageView';
+import VideoPopup from '../components/popup/VideoPopup';
 import {
   dataImage,
   hashtag_,
   imgToSVG,
   scrollSection,
   stickyNav,
-} from "../utilits";
+} from '../utilits';
 
 const Layout = ({ children }) => {
   useEffect(() => {
@@ -21,13 +22,13 @@ const Layout = ({ children }) => {
     const handleStickyNav = () => stickyNav();
     const handleScrollSection = () => scrollSection();
 
-    window.addEventListener("scroll", handleStickyNav);
-    window.addEventListener("scroll", handleScrollSection);
+    window.addEventListener('scroll', handleStickyNav);
+    window.addEventListener('scroll', handleScrollSection);
 
     // Cleanup function to remove event listeners when the component is unmounted
     return () => {
-      window.removeEventListener("scroll", handleStickyNav);
-      window.removeEventListener("scroll", handleScrollSection);
+      window.removeEventListener('scroll', handleStickyNav);
+      window.removeEventListener('scroll', handleScrollSection);
     };
   }, []); // Empty dependency array ensures this runs once on mount and cleanup on unmount
 
@@ -35,8 +36,9 @@ const Layout = ({ children }) => {
     <Fragment>
       <ImageView />
       <VideoPopup />
-      <div className="orido_tm_all_wrap" data-magic-cursor="show">
+      <div className='orido_tm_all_wrap' data-magic-cursor='show'>
         {children}
+        <SpeedInsights />
       </div>
     </Fragment>
   );

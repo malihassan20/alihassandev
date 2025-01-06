@@ -1,13 +1,13 @@
-"use client";
-import { Fragment, useEffect, useState } from "react";
+'use client';
+import { Fragment, useEffect, useState } from 'react';
 // import Counter from "./Counter";
 
-import { filter_hashtag } from "../utilits";
-import { SKILLS, EDUCATIONS, EXPERIENCES } from "../constant/data";
+import { filter_hashtag } from '../utilits';
+import { SKILLS, EDUCATIONS, EXPERIENCES } from '../constant/data';
 
 const ExpertAreas = () => {
   const [activeTab, setActiveTab] = useState(1);
-  const activeContentTab = (value) => (activeTab == value ? "current" : "");
+  const activeContentTab = (value) => (activeTab == value ? 'current' : '');
 
   useEffect(() => {
     filter_hashtag();
@@ -22,22 +22,18 @@ const ExpertAreas = () => {
               <div className='left'>
                 <div className='orido_tm_main_title'>
                   <h3>
-                    <span>
-                      My expert
-                      <br />
-                      areas
-                    </span>
+                    <span>My Expertise</span>
                   </h3>
                 </div>
                 <div className='text'>
                   <p>
                     I specialize in developing high-performance, scalable web
                     applications with a focus on modern, responsive front-end
-                    frameworks such as React.js, Next.js, and Redux. My backend
-                    expertise includes crafting robust architectures using
-                    Node.js, Express.js, PHP, and Laravel, seamlessly integrated
-                    with efficient database solutions like MySQL, PostgreSQL,
-                    and MongoDB.
+                    frameworks such as React.js, Vue.js, Next.js, and Redux. My
+                    backend expertise includes crafting robust architectures
+                    using Node.js, Express.js, PHP, and Laravel, seamlessly
+                    integrated with efficient database solutions like MySQL,
+                    PostgreSQL, and MongoDB.
                   </p>
                   <p>
                     I have extensive experience implementing RESTful APIs,
@@ -51,8 +47,8 @@ const ExpertAreas = () => {
                   </p>
                 </div>
                 <div className='orido_tm_boxed_button'>
-                  <a href='#'>
-                    My Resume{" "}
+                  <a href='cv/Ali-Hassan-Resume.pdf' download>
+                    My Resume{' '}
                     <img className='svg' src='img/svg/paper.svg' alt='' />
                   </a>
                 </div>
@@ -66,7 +62,7 @@ const ExpertAreas = () => {
                         onClick={() => setActiveTab(1)}
                         data-tab='tab_1'
                       >
-                        <span>Skills</span>{" "}
+                        <span>Skills</span>{' '}
                         <img
                           className='svg'
                           src='img/svg/top-arrow.svg'
@@ -80,7 +76,7 @@ const ExpertAreas = () => {
                         onClick={() => setActiveTab(2)}
                         data-tab='tab_2'
                       >
-                        <span>Experience</span>{" "}
+                        <span>Experience</span>{' '}
                         <img
                           className='svg'
                           src='img/svg/top-arrow.svg'
@@ -94,7 +90,7 @@ const ExpertAreas = () => {
                         onClick={() => setActiveTab(3)}
                         data-tab='tab_3'
                       >
-                        <span>Education</span>{" "}
+                        <span>Education</span>{' '}
                         <img
                           className='svg'
                           src='img/svg/top-arrow.svg'
