@@ -1,4 +1,4 @@
-const SITE_URL = 'http://localhost:3000/';
+const SITE_URL = 'https://alihassan.dev/';
 
 export const COUNTS = [
   { name: 'Trainings', value: 219 },
