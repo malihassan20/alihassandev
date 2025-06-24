@@ -192,97 +192,6 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: 'Brandwatch',
-    description:
-      'Brandwatch Reviews is an advanced analytics platform designed to help businesses monitor and analyze customer reviews. It provides powerful tools for collecting, managing, and extracting insights from reviews across various platforms, enabling companies to enhance their products, services, and customer experiences.',
-    thumbImg: 'img/projects/brandWatch/thumb.jpg',
-    innerImg: 'img/projects/brandWatch/cover.jpg',
-    image1: 'img/projects/brandWatch/1.jpg',
-    image2: 'img/projects/brandWatch/2.jpg',
-    image3: 'img/projects/brandWatch/3.jpg',
-    keyFeatures: [
-      'A centralized platform for collecting reviews from multiple sources.',
-      'Intuitive dashboards and graphs for tracking sentiment and review trends.',
-      'AI-powered tools to determine customer sentiment and identify key themes.',
-      'Notifications for significant changes in review patterns or emerging issues.',
-      'Enables team discussions and tagging for efficient review management.',
-      'Seamless integration with Brandwatch’s broader analytics ecosystem.',
-    ],
-    keyResponsibilities: [
-      'Engineered the core API using Node.js and Express to manage review data flow.',
-      'Developed user interfaces with Vue.js and Vuetify for responsive and engaging experiences.',
-      'Utilized MongoDB for efficient and scalable storage of review data.',
-      'Leveraged Firebase for real-time data synchronization and user authentication.',
-      'Docker was employed to build and manage containerized environments.',
-      'Enhanced platform scalability and reduced latency in data retrieval.',
-    ],
-    technologies: [
-      'Vue.js',
-      'Vuetify',
-      'TypeScript',
-      'Sass',
-      'Node.js',
-      'Express.js',
-      'MongoDB',
-      'Firebase',
-      'Docker',
-    ],
-    links: [
-      {
-        name: 'Brandwatch',
-        url: 'https://brandwatch.com',
-      },
-      {
-        name: 'Reviews Portal',
-        url: 'https://new.reviews.brandwatch.com/',
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: 'Rich Returns',
-    description:
-      'Rich Returns is a Shopify app designed to streamline the return and exchange process for e-commerce businesses. It provides a user-friendly portal for managing returns, improving customer satisfaction, and enhancing operational efficiency. The app integrates seamlessly with Shopify, offering businesses a hassle-free return experience.',
-    thumbImg: 'img/projects/richReturn/thumb.jpg',
-    innerImg: 'img/projects/richReturn/cover.jpg',
-    image1: 'img/projects/richReturn/1.jpg',
-    image2: 'img/projects/richReturn/2.jpg',
-    image3: 'img/projects/richReturn/3.jpg',
-    keyFeatures: [
-      'Customers can easily initiate returns or exchanges directly from the store’s portal.',
-      'Flexible settings for configuring rules and eligibility for returns.',
-      'Streamlined return processing with automated email notifications and approvals.',
-      'Label Generation Integration with shipping carriers for easy return label creation.',
-      'Insights on return trends, reasons, and overall performance.',
-      'Localized experiences for global customers.',
-      'Seamless orders, products, and customer data synchronization.',
-    ],
-    keyResponsibilities: [
-      'Developed robust APIs using Node.js and Express to handle return workflows and Shopify integrations.',
-      'Built responsive user interfaces with React and Ant Design for customers and admin users.',
-      'Designed and optimized relational databases using MySQL to store return data efficiently.',
-      'Implemented Redis to improve application performance and reduce latency.',
-      'Ensured seamless connectivity with Shopify for synchronization of real-time order and product data.',
-      'Enhanced scalability and reliability to handle high volumes of transactions during peak seasons.',
-    ],
-    technologies: [
-      'React',
-      'Ant Design',
-      'Redis',
-      'Node.js',
-      'MongoDB',
-      'MySQL',
-      'Shopify',
-    ],
-    links: [
-      {
-        name: 'Rich Returns',
-        url: 'https://www.richreturns.io/',
-      },
-    ],
-  },
-  {
-    id: 4,
     title: 'Ropo',
     description:
       'Ropo is a property management platform that simplifies real estate operations for property managers, tenants, and landlords. It provides tools to manage properties, handle payments, and streamline communication, making property management more efficient and transparent.',
@@ -328,7 +237,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 5,
+    id: 3,
     title: 'Sockoye',
     description:
       'Sockoye is an eCommerce platform designed to sell a wide variety of socks and provide a seamless shopping experience for customers. The site is built on Shopify and offers a visually appealing, user-friendly interface for easy navigation and product selection. It leverages Shopify’s capabilities to ensure a robust, scalable, and efficient online store that caters to a global audience.',
@@ -368,7 +277,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 6,
+    id: 4,
     title: 'Instant Touch',
     description:
       'Instant Touch is a web-based platform that provides real-time, secure, and user-friendly communication between clients and healthcare professionals. This telemedicine solution allows users to book consultations, access healthcare services, and connect with doctors seamlessly, ensuring that individuals can receive medical advice from the comfort of their homes.',
@@ -411,7 +320,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 7,
+    id: 5,
     title: 'NoYelling',
     description:
       'NoYelling is a modern platform focused on simplifying the process of booking driving lessons. Designed with user experience in mind, the website allows users to browse and book lessons with qualified driving instructors easily. Built with Next.js and React.js, it delivers a seamless and responsive experience for users across devices.',
@@ -452,7 +361,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 8,
+    id: 6,
     title: 'INCI',
     description:
       'INCI is a platform designed to analyze cosmetic product ingredients, offering personalized feedback based on user suitability. The backend system plays a vital role in ensuring smooth operation, from handling user data to integrating APIs like ChatGPT for ingredient analysis and OCR for text extraction from images.',
@@ -487,7 +396,7 @@ export const PROJECTS = [
     links: [],
   },
   {
-    id: 9,
+    id: 7,
     title: 'Xendit',
     description:
       'Xendit is a comprehensive payment infrastructure platform that simplifies payment processes for businesses working with multiple partners. It provides a seamless solution to manage transactions, integrate payment gateways, and enhance operational efficiency.',
